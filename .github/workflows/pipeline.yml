@@ -7,5 +7,5 @@ on:
 
 jobs:
   call-workflow:
-    uses: Mulesoft-alg/pipelines/.github/workflows/pipeline.yml@master
+    uses: algoliapoc/pipelines/.github/workflows/pipeline.yml@master
     secrets: inherit
