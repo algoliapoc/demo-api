@@ -3,9 +3,9 @@ name: Deploy MuleSoft Application Demo
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   call-workflow:
-    uses: algoliapoc/pipelines/.github/workflows/pipeline.yml@master
+    uses: algoliapoc/pipelines/.github/workflows/pipeline.yml@main
     secrets: inherit
