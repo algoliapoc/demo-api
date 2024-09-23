@@ -1,4 +1,4 @@
-name: Deploy MuleSoft Application Demo
+name: Deploy MuleSoft Application POC
  
 on:
   push:
